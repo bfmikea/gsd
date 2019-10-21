@@ -1,0 +1,145 @@
+html {
+	min-height: 100%;
+	
+	position: relative;
+	background: radial-gradient(circle farthest-side at 240% 0, #596070, #31353e) no-repeat;
+	padding: 30px 0;
+	display: block;
+}
+
+   
+ 
+body {
+	font: 300 14px/1.6 "Open Sans", Arial, sans-serif;
+	background: none;
+	position: relative;
+	z-index: 2;
+	}
+
+p, li, li a, label {
+  color: #fff;
+}
+a,
+a:hover,
+a:active,
+a:focus {
+	color: #db392a;
+}
+
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.btn-u-lg.btn-u-upper, a.btn-u-lg.btn-u-upper {
+  font-size: 12px;
+  font-weight: bold;
+}
+.btn-u-upper {
+  text-transform: uppercase;
+}
+
+.copyright {
+	align-content: last baseline;
+	margin-top: 5%;
+	color:#fff !important;
+}
+.copyright p {
+		
+		color:#fff !important;
+}
+	/* display: flex;
+	justify-content: center; */
+	/* margin-top: auto; */
+	/* border: 20px solid red; */
+
+.copyright a {
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+	
+}
+/* .coming-soon-v5{
+	min-height:-webkit-fill-available;
+} */
+
+.icono{
+	margin-top: 1.5%;
+}
+
+/* Para controlar el margen der e izq de la fila de las tarjetas */
+.cards{
+	margin: auto 14%;
+}
+
+.card{
+	height: 160px;
+}
+
+.btn-coming-soon{
+	background-color: transparent !important;
+	color:#fff !important;
+}
+
+.h1-coming-soon{
+	font-size: 4.4em;
+	text-transform:none;
+	font-family: 'Leelawadee UI', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	line-height: 1em;
+	color:#fff !important;
+}
+
+.margin-bottom-header{
+	margin-bottom: 2.5%;
+}
+
+.margin-bottom-row-cards{
+	margin-bottom: 1.5%;
+}
+.form-imput-coming {
+	border: none !important;
+}
+
+.logo-coming{
+	height: 10%;
+	width: 10%;
+}
+
+@media (max-width:767px){
+	.h1-coming-soon{
+		font-size: 1.8em;
+	}
+}
+form input{
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	
+	
+} 
+.margin-top-social{
+	/* margin-top: 8%; */
+}
+/* .alert-coming-soon{
+	
+} */
+.alert-coming-soon-h{
+	min-height: 70px;
+}
+
+/* Animación para notificación de recibo de correo */
+.pop-in {
+	margin: 1em;
+	transform-origin: left top; 
+	animation-name: pop-in;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+  }
+  
+  @keyframes pop-in {
+	0% { opacity: 0; transform: scale(0.9); }
+	100% { opacity: 1; transform: scale(1); }
+  }
+  /* End Animación para notificación de recibo de correo */
